@@ -1,0 +1,2 @@
+1-passo: Acessar a raiz do projeto
+2-passo: Com o prompt do Node JS executar o comando "ionic serve"
