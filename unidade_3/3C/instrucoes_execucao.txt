@@ -1,2 +1,3 @@
-1-passo: Acessar a raiz do projeto
-2-passo: Com o prompt do Node JS executar o comando "ionic serve"
+1-Passo: Acessar a raiz do projeto
+2-Passo: Com o prompt do Node JS executar o comando "ionic serve"
+3-Passo: Caso pedir para instalar a dependencia @angular/cli selecionar Yes (Sim)
