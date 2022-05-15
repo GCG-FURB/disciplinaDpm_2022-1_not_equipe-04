@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Acelerômetro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="false">
+  <ion-button (click)="iniciar()">Iniciar</ion-button>
+  <ion-button (click)="terminar()">terminar</ion-button>
+  <ion-card *ngIf="data">
+    <ion-card-content>
+      <h2>X: {{data.x | number:'1.4-4'}}</h2>
+      <h2>Y: {{data.y | number:'1.4-4'}}</h2>
+      <h2>Z: {{data.z | number:'1.4-4'}}</h2>
+    </ion-card-content>
+    <ion-button style="margin-top: {{data.y * 10}}px;margin-left: {{data.x * 10}}px;">XXX</ion-button>
+  </ion-card>
+</ion-content>

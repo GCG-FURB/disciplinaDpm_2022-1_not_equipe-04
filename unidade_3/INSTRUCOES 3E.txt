@@ -1,0 +1,14 @@
+cd C:\Users\guilh\OneDrive\Documentos\DESPOSITIVOS MOVEIS\3EC
+
+ionic cordova plugin add cordova-plugin-camera 
+npm install @awesome-cordova-plugins/camera 
+incluir a dependencia na lista de providers do modulo.ts
+=================================================================
+C:\Users\guilh\OneDrive\Documentos\DESPOSITIVOS MOVEIS\3F
+
+https://ionicframework.com/docs/native/device-motion
+
+ionic cordova plugin add cordova-plugin-device-motion 
+npm install @awesome-cordova-plugins/device-motion 
+=================================================================
+
