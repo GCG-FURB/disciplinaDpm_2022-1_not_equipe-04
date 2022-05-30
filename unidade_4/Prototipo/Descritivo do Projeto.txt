@@ -1,0 +1,6 @@
+Sistema para automação Residencial
+
+O sistema ira permitir acendar e apagar as luzes dos ambientes pelo aplicativo.
+O sistema ira retornar a temperatura atual de cada ambiente.
+
+Será utilizado um Esp 8266
