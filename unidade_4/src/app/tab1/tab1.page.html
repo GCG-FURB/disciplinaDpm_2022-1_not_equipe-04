@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Controle IOT
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-button color="primary" (click)="dados()" expand="block" style="margin-bottom: 25px;margin-top: 25px;">Verificar temperatura</ion-button>
+  <ion-button color="success" (click)="lampada1(0)" *ngIf="led1ligado == false" expand="block">LIGAR LAMPADA 1</ion-button>
+  <ion-button color="warning" (click)="lampada1(1)" *ngIf="led1ligado == true" expand="block">DESLIGAR LAMPADA 1</ion-button>
+
+</ion-content>
